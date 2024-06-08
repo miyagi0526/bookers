@@ -13,3 +13,107 @@
  *= require_tree .
  *= require_self
  */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-title {
+  padding: 20px 0 0 5%;
+}
+
+.top-main {
+  padding: 15px 0 0 10%;
+  line-height: 45px;
+  font-size: 14px;
+}
+
+header {
+  padding: 15px;
+  margin-left: 2%;
+  margin-top: 20px;
+}
+
+main {
+  font-size: 14px;
+  margin-left: 5%;
+}
+
+td {
+  padding: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  padding: 0 5px;
+}
+
+.new-box {
+  margin-top: 15px;
+}
+
+.new-title {
+  margin-bottom: 15px;
+}
+
+.show-box {
+  font-size: 14px;
+  margin-left: 5%;
+}
+
+.show-title-box {
+  margin: 5% 0 5% 10%;
+}
+
+.show-body-box {
+  margin: 5% 0 5% 10%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.edit-title {
+  padding: 30px 0 10px 5%;
+}
+
+.edit-body {
+  padding: 10px 0;
+}
+
+.edit-submit {
+  margin-bottom: 10px;
+}
+
+.flash {
+  font-size: 14px;
+  color: green;
+  padding: 30px 0 0 15%;
+}
+
+.error-message {
+  padding: 15px;
+}
+
+.error-m1 {
+  width: 65%;
+  height: 30px;
+  background-color: #CC3300;
+  color: white;
+  line-height: 30px;
+  padding-left: 5%;
+}
+
+.error-m2 {
+  width: 65%;
+  height: 120px;
+  background-color: #D3D3D3;
+  padding: 30px 0 px 10%;
+}
